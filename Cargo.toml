@@ -1,0 +1,17 @@
+[package]
+name = "fuel_gfx"
+version = "0.1.0"
+authors = ["Alexandre Chêne <kooparse@protonmail.com>"]
+edition = "2018"
+
+[dependencies]
+winit = "0.17"
+
+[build-dependencies]
+glsl-to-spirv = "=0.1.6"
+
+[dependencies.gfx-hal]
+git = "https://github.com/gfx-rs/gfx"
+
+[dependencies.gfx-backend-metal]
+git = "https://github.com/gfx-rs/gfx"
